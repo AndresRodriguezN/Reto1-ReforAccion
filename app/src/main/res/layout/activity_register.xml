@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:text="Ingresa los datos de tu plantación"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:text="Cantidad de plantas sembradas"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="245dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Ingresa la cantidad"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:text="Mes en que se sembraron "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="245dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Ingresa el mes"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:text="Costo de cada planta"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="245dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Ingresa el costo"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:text="Zona con mayor numero de plantas"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="245dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Ingresa la zona"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:text="Area utilizada en la plantacion"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="245dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Ingresa el area"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:text="Mes de la plantacion"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="245dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Ingresa el mes"
+        android:inputType="textPersonName" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
